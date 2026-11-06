@@ -1,0 +1,122 @@
+{
+  "data_end": "2025-12-21",
+  "regime_start": "2025-03-17",
+  "break_transfers": "2025-01-26",
+  "break_discharges": "2025-02-17",
+  "cbp_bad_start": "2023-01-12",
+  "cbp_bad_end": "2024-01-30",
+  "cal_start": "2025-06-22",
+  "test_start": "2025-09-21",
+  "horizon": 28,
+  "champion": {
+    "discharged": "Ensemble",
+    "hhs_care": "SARIMA",
+    "transferred": "Moving Avg (7d)"
+  },
+  "sarima_specs": {
+    "hhs_care": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        7
+      ],
+      "n"
+    ],
+    "discharged": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        7
+      ],
+      "c"
+    ],
+    "transferred": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        7
+      ],
+      "c"
+    ]
+  },
+  "recon_per_day": 3.347457627118644,
+  "alert_probability": 0.3,
+  "pre_break_transfers_per_day": 205.433908045977,
+  "current_care_load": 2484.0,
+  "capacity_default": 2650,
+  "stale_reports": 5,
+  "blank_rows": 450,
+  "copied_cbp_reports": 251,
+  "surge_lead": [
+    {
+      "source": "replay 2023\u201324",
+      "events": 25,
+      "detection_rate": 1.0,
+      "median_lead_days": 14.0,
+      "mean_lead_days": 14.6,
+      "false_alarm_rate": 0.257
+    },
+    {
+      "source": "test 2025",
+      "events": 16,
+      "detection_rate": 1.0,
+      "median_lead_days": 28.0,
+      "mean_lead_days": 24.31,
+      "false_alarm_rate": 0.22399999999999998
+    }
+  ],
+  "accuracy_champion": {
+    "hhs_care": 98.6,
+    "discharged": 64.6,
+    "transferred": 58.8
+  },
+  "notebook_version": "2.0",
+  "models": [
+    "Naive",
+    "Seasonal Naive (7d)",
+    "Moving Avg (7d)",
+    "SARIMA",
+    "ETS",
+    "Random Forest",
+    "Gradient Boosting",
+    "Ensemble"
+  ],
+  "model_colors": {
+    "Naive": "#2a78d6",
+    "Seasonal Naive (7d)": "#8a5a2b",
+    "Moving Avg (7d)": "#eb6834",
+    "SARIMA": "#1baf7a",
+    "ETS": "#eda100",
+    "Random Forest": "#e87ba4",
+    "Gradient Boosting": "#008300",
+    "Ensemble": "#4a3aa7"
+  },
+  "interval_method": "empirical walk-forward error quantiles (h \u00b1 2) from the last 26 weeks of origins, target dates observed at the forecast origin",
+  "accuracy_definition": "Accuracy % = 100 - WAPE = 100 x (1 - sum|y - yhat| / sum|y|), reported days of the test window",
+  "capacity_note": "No bed-capacity data in the source file: capacity_default is an illustrative threshold (about 5% above the latest care load)",
+  "validation_issues": 0,
+  "fit_failures": 0,
+  "coverage80_rolling_26wk": {
+    "hhs_care": 0.902,
+    "discharged": 0.787,
+    "transferred": 0.684
+  }
+}

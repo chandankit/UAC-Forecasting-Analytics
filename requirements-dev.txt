@@ -1,0 +1,5 @@
+# Extra packages for the test suite (python -m pytest). Versions as tested.
+-r requirements.txt
+pytest==9.0.3
+pypdfium2==5.10.1
+reportlab==4.5.1

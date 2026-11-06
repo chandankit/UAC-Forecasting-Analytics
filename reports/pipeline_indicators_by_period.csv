@@ -1,0 +1,10 @@
+Period,Indicator,Reports evaluated,% Watch or Alert,% Alert,Median value,Max value,Unit
+Before the break,HHS census growth (backlog building),245,21.63265306122449,6.530612244897959,-0.864397622906532,16.437146892655363,% vs 28 days earlier
+Before the break,Discharge slowdown (placement bottleneck),245,10.612244897959183,0.40816326530612246,2.2106231685785294,33.62371404843822,% below 8-week median rate
+Before the break,CBP holding time (transfer bottleneck),243,0.0,0.0,1.3113300492610838,1.8452830188679246,"days (custody / transfers, 7-day)"
+Current regime,HHS census growth (backlog building),185,42.16216216216216,0.0,4.459991254919116,8.680555555555557,% vs 28 days earlier
+Current regime,Discharge slowdown (placement bottleneck),183,42.62295081967213,22.404371584699454,10.00956389010793,87.4124550444823,% below 8-week median rate
+Current regime,CBP holding time (transfer bottleneck),183,95.62841530054644,43.71584699453552,2.878787878787879,6.571428571428571,"days (custody / transfers, 7-day)"
+Last 90 days,HHS census growth (backlog building),61,63.934426229508205,0.0,5.882352941176472,8.246913580246918,% vs 28 days earlier
+Last 90 days,Discharge slowdown (placement bottleneck),61,44.26229508196721,21.311475409836063,13.284311375276015,46.79184284502824,% below 8-week median rate
+Last 90 days,CBP holding time (transfer bottleneck),61,100.0,60.65573770491803,3.1944444444444446,6.571428571428571,"days (custody / transfers, 7-day)"

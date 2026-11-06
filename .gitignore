@@ -1,0 +1,82 @@
+# Allowlist: only the paths named below are published. Everything else in this working folder stays local
+# (the QA workbench, archived builds, build logs, personal and course documents, editor and environment folders).
+# To publish a new file, add a "!" line for it here on purpose.
+
+/*
+
+# Repository and environment
+!/.gitignore
+!/README.md
+!/CHANGELOG.md
+!/requirements.txt
+!/requirements-dev.txt
+!/pytest.ini
+!/.streamlit/
+/.streamlit/*
+!/.streamlit/config.toml
+
+# Dashboard (entry point) and its package
+!/uac_forecast_dashboard.py
+!/src/
+
+# Data: the public HHS source file and the artifacts the dashboard reads
+!/HHS_Unaccompanied_Alien_Children_Program.csv
+!/artifacts/
+
+# Analysis notebook and its editable source
+!/UAC_Care_Load_Forecasting.ipynb
+!/notebook_source/
+/notebook_source/*
+!/notebook_source/UAC_Care_Load_Forecasting_v2.py
+
+# Research paper, Appendix volume and executive summary
+!/Research_Paper_UAC_Forecasting.md
+!/Research_Paper_UAC_Forecasting.docx
+!/Research_Paper_UAC_Forecasting.pdf
+!/Research_Paper_Appendix.md
+!/Research_Paper_Appendix.docx
+!/Research_Paper_Appendix.pdf
+!/Executive_Summary_UAC_Forecasting.md
+!/Executive_Summary_UAC_Forecasting.docx
+!/Executive_Summary_UAC_Forecasting.pdf
+!/figures/
+
+# Generated tables the paper and tests quote
+!/reports/
+/reports/*
+!/reports/pipeline_*.csv
+!/reports/pipeline_analysis.md
+!/reports/Paper_Quality_Report.md
+
+# The original long paper: the source of the Appendix narrative and of the paper's number-provenance check
+!/archive/
+/archive/*
+!/archive/v2.3_full_paper_2026-11-05/
+/archive/v2.3_full_paper_2026-11-05/*
+!/archive/v2.3_full_paper_2026-11-05/Research_Paper_UAC_Forecasting.md
+
+# Scripts and tests
+!/tools/
+/tools/*
+!/tools/md2docx.py
+!/tools/build_paper.py
+!/tools/build_paper_appendix.py
+!/tools/paper_figures.py
+!/tools/check_paper.py
+!/tools/pipeline_analysis.py
+!/tools/nb_build.py
+!/tools/nb_export.py
+!/tools/nb_sync_markdown.py
+!/tests/
+
+# Never publish these, wherever they appear
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+secrets.toml
+*.log
+~$*

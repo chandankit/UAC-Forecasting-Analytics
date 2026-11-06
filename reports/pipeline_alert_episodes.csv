@@ -1,0 +1,48 @@
+Indicator,Start,End,Reported days,Calendar days,Highest level,Peak value,Unit
+HHS census growth (backlog building),2023-02-09,2023-02-22,9,14,Alert,20.438623210478223,% vs 28 days earlier
+HHS census growth (backlog building),2023-04-06,2023-04-06,1,1,Watch,5.03467762650911,% vs 28 days earlier
+HHS census growth (backlog building),2023-05-01,2023-05-18,14,18,Alert,16.707516339869287,% vs 28 days earlier
+HHS census growth (backlog building),2023-07-10,2023-09-28,55,81,Alert,37.60891301242679,% vs 28 days earlier
+HHS census growth (backlog building),2023-10-02,2023-10-05,4,4,Watch,7.368842611133353,% vs 28 days earlier
+HHS census growth (backlog building),2023-11-23,2023-12-28,25,36,Alert,17.462260301917574,% vs 28 days earlier
+HHS census growth (backlog building),2024-02-14,2024-02-15,2,2,Watch,5.45094152626362,% vs 28 days earlier
+HHS census growth (backlog building),2024-02-22,2024-02-22,1,1,Watch,5.220048899755492,% vs 28 days earlier
+HHS census growth (backlog building),2024-02-27,2024-03-12,11,15,Alert,10.010162601626016,% vs 28 days earlier
+HHS census growth (backlog building),2024-05-05,2024-05-21,13,17,Alert,12.879581151832454,% vs 28 days earlier
+HHS census growth (backlog building),2024-09-04,2024-09-16,10,13,Watch,7.888040712468203,% vs 28 days earlier
+HHS census growth (backlog building),2024-12-09,2024-12-30,16,22,Alert,16.437146892655363,% vs 28 days earlier
+HHS census growth (backlog building),2025-04-07,2025-04-29,18,23,Watch,8.39260312944523,% vs 28 days earlier
+HHS census growth (backlog building),2025-05-15,2025-06-09,15,26,Watch,8.680555555555557,% vs 28 days earlier
+HHS census growth (backlog building),2025-09-15,2025-10-16,23,32,Watch,8.246913580246918,% vs 28 days earlier
+HHS census growth (backlog building),2025-10-22,2025-10-30,7,9,Watch,6.285178236397759,% vs 28 days earlier
+HHS census growth (backlog building),2025-11-30,2025-12-18,15,19,Watch,6.80212014134276,% vs 28 days earlier
+Discharge slowdown (placement bottleneck),2023-06-22,2023-06-22,1,1,Watch,21.679319658945417,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2023-07-09,2023-07-12,4,4,Watch,20.25934519578637,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2023-10-12,2023-10-12,1,1,Watch,16.840371379621587,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2023-11-27,2023-12-03,5,7,Watch,24.239501893409766,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-02-19,2024-02-19,1,1,Watch,17.08379120380137,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-02-22,2024-02-22,1,1,Watch,15.664167791923834,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-04-29,2024-05-02,4,4,Watch,18.273771191861954,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-05-27,2024-05-27,1,1,Watch,15.076372067543076,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-05-29,2024-05-30,2,2,Watch,25.322775752529335,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-07-11,2024-07-11,1,1,Watch,16.53967528303206,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-08-04,2024-08-06,3,3,Watch,20.386073883459588,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-08-27,2024-09-10,10,15,Alert,33.62371404843822,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2024-12-04,2024-12-08,3,5,Watch,18.977527002679473,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-02-17,2025-04-20,45,63,Alert,87.4124550444823,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-07-31,2025-08-07,6,8,Watch,20.969900183618307,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-08-17,2025-08-25,7,9,Alert,32.78236914600551,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-09-03,2025-09-09,5,7,Alert,36.409811694747276,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-09-11,2025-09-22,8,12,Watch,29.228106684150525,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-10-15,2025-10-23,7,9,Alert,31.237370168965594,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-11-05,2025-11-05,1,1,Watch,20.954139194139188,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-11-13,2025-12-04,15,22,Alert,46.79184284502824,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-12-08,2025-12-09,2,2,Watch,17.405101956575574,% below 8-week median rate
+Discharge slowdown (placement bottleneck),2025-12-14,2025-12-15,2,2,Watch,21.901843443651504,% below 8-week median rate
+CBP holding time (transfer bottleneck),2025-02-26,2025-02-26,1,1,Watch,2.022222222222222,"days (custody / transfers, 7-day)"
+CBP holding time (transfer bottleneck),2025-03-02,2025-03-24,17,23,Alert,3.8,"days (custody / transfers, 7-day)"
+CBP holding time (transfer bottleneck),2025-03-31,2025-05-08,30,39,Alert,3.111111111111111,"days (custody / transfers, 7-day)"
+CBP holding time (transfer bottleneck),2025-05-15,2025-06-08,14,25,Alert,3.2972972972972974,"days (custody / transfers, 7-day)"
+CBP holding time (transfer bottleneck),2025-06-10,2025-06-10,1,1,Watch,2.14,"days (custody / transfers, 7-day)"
+CBP holding time (transfer bottleneck),2025-06-22,2025-08-28,48,68,Alert,5.379310344827586,"days (custody / transfers, 7-day)"
+CBP holding time (transfer bottleneck),2025-09-02,2025-12-21,76,111,Alert,6.571428571428571,"days (custody / transfers, 7-day)"
