@@ -1,0 +1,73 @@
+target,model,method,coverage80,coverage95,width80
+discharged,ETS,fixed calibration (13 wk),0.89,0.982,15.223
+discharged,ETS,rolling origin (26 wk),0.878,0.974,14.403
+discharged,ETS,rolling origin (13 wk),0.824,0.948,12.426
+discharged,Ensemble,fixed calibration (13 wk),0.772,0.963,11.829
+discharged,Ensemble,rolling origin (26 wk),0.787,0.961,11.313
+discharged,Ensemble,rolling origin (13 wk),0.779,0.929,10.162
+discharged,Gradient Boosting,fixed calibration (13 wk),0.743,0.955,13.85
+discharged,Gradient Boosting,rolling origin (26 wk),0.774,0.95,13.162
+discharged,Gradient Boosting,rolling origin (13 wk),0.751,0.927,11.063
+discharged,Moving Avg (7d),fixed calibration (13 wk),0.945,0.99,16.883
+discharged,Moving Avg (7d),rolling origin (26 wk),0.916,0.987,15.413
+discharged,Moving Avg (7d),rolling origin (13 wk),0.863,0.952,13.379
+discharged,Naive,fixed calibration (13 wk),0.957,0.996,21.246
+discharged,Naive,rolling origin (26 wk),0.93,0.995,19.716
+discharged,Naive,rolling origin (13 wk),0.887,0.971,17.036
+discharged,Random Forest,fixed calibration (13 wk),0.742,0.949,14.925
+discharged,Random Forest,rolling origin (26 wk),0.776,0.945,14.259
+discharged,Random Forest,rolling origin (13 wk),0.751,0.917,11.091
+discharged,SARIMA,fixed calibration (13 wk),0.862,0.988,12.703
+discharged,SARIMA,rolling origin (26 wk),0.829,0.978,11.751
+discharged,SARIMA,rolling origin (13 wk),0.777,0.955,10.154
+discharged,Seasonal Naive (7d),fixed calibration (13 wk),0.916,0.984,17.427
+discharged,Seasonal Naive (7d),rolling origin (26 wk),0.887,0.977,15.985
+discharged,Seasonal Naive (7d),rolling origin (13 wk),0.851,0.955,13.671
+hhs_care,ETS,fixed calibration (13 wk),0.926,0.984,166.755
+hhs_care,ETS,rolling origin (26 wk),0.91,0.976,152.369
+hhs_care,ETS,rolling origin (13 wk),0.803,0.927,110.29
+hhs_care,Ensemble,fixed calibration (13 wk),0.976,0.998,221.427
+hhs_care,Ensemble,rolling origin (26 wk),0.965,0.996,202.119
+hhs_care,Ensemble,rolling origin (13 wk),0.851,0.947,128.25
+hhs_care,Gradient Boosting,fixed calibration (13 wk),1.0,1.0,301.447
+hhs_care,Gradient Boosting,rolling origin (26 wk),0.991,1.0,273.465
+hhs_care,Gradient Boosting,rolling origin (13 wk),0.794,0.92,157.935
+hhs_care,Moving Avg (7d),fixed calibration (13 wk),0.978,1.0,316.8
+hhs_care,Moving Avg (7d),rolling origin (26 wk),0.931,0.996,301.117
+hhs_care,Moving Avg (7d),rolling origin (13 wk),0.965,0.996,166.18
+hhs_care,Naive,fixed calibration (13 wk),0.948,1.0,267.352
+hhs_care,Naive,rolling origin (26 wk),0.937,0.998,253.096
+hhs_care,Naive,rolling origin (13 wk),0.974,1.0,137.748
+hhs_care,Random Forest,fixed calibration (13 wk),0.979,0.996,301.534
+hhs_care,Random Forest,rolling origin (26 wk),0.967,0.996,268.668
+hhs_care,Random Forest,rolling origin (13 wk),0.749,0.888,170.893
+hhs_care,SARIMA,fixed calibration (13 wk),0.916,0.975,165.735
+hhs_care,SARIMA,rolling origin (26 wk),0.902,0.967,150.498
+hhs_care,SARIMA,rolling origin (13 wk),0.817,0.945,108.377
+hhs_care,Seasonal Naive (7d),fixed calibration (13 wk),0.946,1.0,318.754
+hhs_care,Seasonal Naive (7d),rolling origin (26 wk),0.911,0.99,304.149
+hhs_care,Seasonal Naive (7d),rolling origin (13 wk),0.951,0.992,167.38
+transferred,ETS,fixed calibration (13 wk),0.662,0.881,11.29
+transferred,ETS,rolling origin (26 wk),0.7,0.891,11.747
+transferred,ETS,rolling origin (13 wk),0.707,0.894,12.11
+transferred,Ensemble,fixed calibration (13 wk),0.684,0.907,11.049
+transferred,Ensemble,rolling origin (26 wk),0.719,0.908,11.412
+transferred,Ensemble,rolling origin (13 wk),0.693,0.859,11.281
+transferred,Gradient Boosting,fixed calibration (13 wk),0.595,0.816,11.398
+transferred,Gradient Boosting,rolling origin (26 wk),0.675,0.848,12.038
+transferred,Gradient Boosting,rolling origin (13 wk),0.641,0.811,12.009
+transferred,Moving Avg (7d),fixed calibration (13 wk),0.66,0.843,11.187
+transferred,Moving Avg (7d),rolling origin (26 wk),0.684,0.861,11.58
+transferred,Moving Avg (7d),rolling origin (13 wk),0.711,0.868,12.285
+transferred,Naive,fixed calibration (13 wk),0.727,0.908,13.669
+transferred,Naive,rolling origin (26 wk),0.736,0.904,14.144
+transferred,Naive,rolling origin (13 wk),0.76,0.943,15.501
+transferred,Random Forest,fixed calibration (13 wk),0.64,0.855,11.67
+transferred,Random Forest,rolling origin (26 wk),0.689,0.88,12.126
+transferred,Random Forest,rolling origin (13 wk),0.652,0.834,11.803
+transferred,SARIMA,fixed calibration (13 wk),0.8,0.958,12.435
+transferred,SARIMA,rolling origin (26 wk),0.815,0.962,12.932
+transferred,SARIMA,rolling origin (13 wk),0.737,0.945,12.104
+transferred,Seasonal Naive (7d),fixed calibration (13 wk),0.71,0.912,14.015
+transferred,Seasonal Naive (7d),rolling origin (26 wk),0.729,0.887,14.088
+transferred,Seasonal Naive (7d),rolling origin (13 wk),0.756,0.92,15.531

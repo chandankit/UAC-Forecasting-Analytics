@@ -1,0 +1,25 @@
+target,model,coverage80,coverage95,width80
+discharged,ETS,0.89,0.982,15.223
+discharged,Ensemble,0.772,0.963,11.829
+discharged,Gradient Boosting,0.743,0.955,13.85
+discharged,Moving Avg (7d),0.945,0.99,16.883
+discharged,Naive,0.957,0.996,21.246
+discharged,Random Forest,0.742,0.949,14.925
+discharged,SARIMA,0.862,0.988,12.703
+discharged,Seasonal Naive (7d),0.916,0.984,17.427
+hhs_care,ETS,0.926,0.984,166.755
+hhs_care,Ensemble,0.976,0.998,221.427
+hhs_care,Gradient Boosting,1.0,1.0,301.447
+hhs_care,Moving Avg (7d),0.978,1.0,316.8
+hhs_care,Naive,0.948,1.0,267.352
+hhs_care,Random Forest,0.979,0.996,301.534
+hhs_care,SARIMA,0.916,0.975,165.735
+hhs_care,Seasonal Naive (7d),0.946,1.0,318.754
+transferred,ETS,0.662,0.881,11.29
+transferred,Ensemble,0.684,0.907,11.049
+transferred,Gradient Boosting,0.595,0.816,11.398
+transferred,Moving Avg (7d),0.66,0.843,11.187
+transferred,Naive,0.727,0.908,13.669
+transferred,Random Forest,0.64,0.855,11.67
+transferred,SARIMA,0.8,0.958,12.435
+transferred,Seasonal Naive (7d),0.71,0.912,14.015

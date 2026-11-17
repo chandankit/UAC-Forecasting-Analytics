@@ -1,0 +1,14 @@
+# Streamlit settings for the UAC forecast dashboard. Streamlit Community Cloud reads this file from the repository root,
+# and so does a local `streamlit run` started from the project folder.
+
+# [server] address is deliberately not set. The dashboard is published on Streamlit Community Cloud with public,
+# aggregate data and no uploads, and pinning the address to "localhost" could stop the host from serving it.
+# To keep a local run on this machine only, start it with:
+#   python -m streamlit run uac_forecast_dashboard.py --server.address localhost
+
+[client]
+# Show the exception type and a generic message, never tracebacks with file paths (QA finding D-SEC-03).
+showErrorDetails = "type"
+
+[browser]
+gatherUsageStats = false

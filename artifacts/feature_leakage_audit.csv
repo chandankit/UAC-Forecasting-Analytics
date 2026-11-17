@@ -1,0 +1,41 @@
+feature,definition,source columns,look-back window,available at origin t?,horizon suitability,changed under perturbation
+care_logchg_1,log(care[t] / care[t−1]),hhs_care,t−1 … t,yes (≤ t only),all h; information ages with h,0
+care_logchg_7,log(care[t] / care[t−7]),hhs_care,t−7 … t,yes (≤ t only),all h; information ages with h,0
+care_logchg_14,log(care[t] / care[t−14]),hhs_care,t−14 … t,yes (≤ t only),all h; information ages with h,0
+care_dev_ma7,log(care[t] / 7-day mean of care),hhs_care,t−6 … t,yes (≤ t only),all h; information ages with h,0
+care_vol7,std of daily care change over 7 days ÷ care[t] × 100,hhs_care,t−7 … t,yes (≤ t only),all h; information ages with h,0
+net_rate_ma7,7-day mean of (transfers − discharges) ÷ care[t] × 100,"transferred, discharged, hhs_care",t−6 … t,yes (≤ t only),all h; information ages with h,0
+care_dev_ma14,log(care[t] / 14-day mean of care),hhs_care,t−13 … t,yes (≤ t only),all h; information ages with h,0
+care_vol14,std of daily care change over 14 days ÷ care[t] × 100,hhs_care,t−14 … t,yes (≤ t only),all h; information ages with h,0
+net_rate_ma14,14-day mean of (transfers − discharges) ÷ care[t] × 100,"transferred, discharged, hhs_care",t−13 … t,yes (≤ t only),all h; information ages with h,0
+net_rate_lag1,(transfers − discharges) on the origin day ÷ care[t] × 100,"transferred, discharged, hhs_care",t,yes (≤ t only),all h; information ages with h,0
+cbp_pipeline_rate,children in CBP custody ÷ care[t] × 100,"cbp_custody, hhs_care",t,yes (≤ t only),all h; information ages with h,0
+apprehended_lag0,log1p(apprehended[t−0]) − log1p(14-day mean),apprehended,t−13 … t,yes (≤ t only),all h; information ages with h,0
+apprehended_lag1,log1p(apprehended[t−1]) − log1p(14-day mean),apprehended,t−13 … t,yes (≤ t only),all h; information ages with h,0
+apprehended_lag7,log1p(apprehended[t−7]) − log1p(14-day mean),apprehended,t−13 … t,yes (≤ t only),all h; information ages with h,0
+apprehended_lag14,log1p(apprehended[t−14]) − log1p(14-day mean),apprehended,t−14 … t,yes (≤ t only),all h; information ages with h,0
+apprehended_ma7,log1p(7-day mean) − log1p(14-day mean) of apprehended,apprehended,t−13 … t,yes (≤ t only),all h; information ages with h,0
+apprehended_logvar7,variance of log1p(apprehended) over 7 days,apprehended,t−6 … t,yes (≤ t only),all h; information ages with h,0
+apprehended_logvar14,variance of log1p(apprehended) over 14 days,apprehended,t−13 … t,yes (≤ t only),all h; information ages with h,0
+apprehended_rate14,14-day mean of apprehended ÷ care[t] × 100,"apprehended, hhs_care",t−13 … t,yes (≤ t only),all h; information ages with h,0
+transferred_lag0,log1p(transferred[t−0]) − log1p(14-day mean),transferred,t−13 … t,yes (≤ t only),all h; information ages with h,0
+transferred_lag1,log1p(transferred[t−1]) − log1p(14-day mean),transferred,t−13 … t,yes (≤ t only),all h; information ages with h,0
+transferred_lag7,log1p(transferred[t−7]) − log1p(14-day mean),transferred,t−13 … t,yes (≤ t only),all h; information ages with h,0
+transferred_lag14,log1p(transferred[t−14]) − log1p(14-day mean),transferred,t−14 … t,yes (≤ t only),all h; information ages with h,0
+transferred_ma7,log1p(7-day mean) − log1p(14-day mean) of transferred,transferred,t−13 … t,yes (≤ t only),all h; information ages with h,0
+transferred_logvar7,variance of log1p(transferred) over 7 days,transferred,t−6 … t,yes (≤ t only),all h; information ages with h,0
+transferred_logvar14,variance of log1p(transferred) over 14 days,transferred,t−13 … t,yes (≤ t only),all h; information ages with h,0
+transferred_rate14,14-day mean of transferred ÷ care[t] × 100,"transferred, hhs_care",t−13 … t,yes (≤ t only),all h; information ages with h,0
+discharged_lag0,log1p(discharged[t−0]) − log1p(14-day mean),discharged,t−13 … t,yes (≤ t only),all h; information ages with h,0
+discharged_lag1,log1p(discharged[t−1]) − log1p(14-day mean),discharged,t−13 … t,yes (≤ t only),all h; information ages with h,0
+discharged_lag7,log1p(discharged[t−7]) − log1p(14-day mean),discharged,t−13 … t,yes (≤ t only),all h; information ages with h,0
+discharged_lag14,log1p(discharged[t−14]) − log1p(14-day mean),discharged,t−14 … t,yes (≤ t only),all h; information ages with h,0
+discharged_ma7,log1p(7-day mean) − log1p(14-day mean) of discharged,discharged,t−13 … t,yes (≤ t only),all h; information ages with h,0
+discharged_logvar7,variance of log1p(discharged) over 7 days,discharged,t−6 … t,yes (≤ t only),all h; information ages with h,0
+discharged_logvar14,variance of log1p(discharged) over 14 days,discharged,t−13 … t,yes (≤ t only),all h; information ages with h,0
+discharged_rate14,14-day mean of discharged ÷ care[t] × 100,"discharged, hhs_care",t−13 … t,yes (≤ t only),all h; information ages with h,0
+origin_dow,weekday of the origin day,calendar,t,yes (≤ t only),all h; information ages with h,0
+h,forecast horizon in days,design,n/a,yes (deterministic),built per horizon (direct strategy),0
+target_dow,weekday of the target day t+h,calendar,known in advance,yes (deterministic),built per horizon (direct strategy),0
+target_holiday,target day within ±1 day of a US federal holiday,calendar (USFederalHolidayCalendar),known in advance,yes (deterministic),built per horizon (direct strategy),0
+seasonal_anchor,same-weekday value at t+h−7⌈h/7⌉ (≤ t) relative to today's level (flows: 14-day mean),series being forecast,t−13 … t,yes (≤ t only),built per horizon (direct strategy),0

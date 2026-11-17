@@ -1,0 +1,25 @@
+target,model,win-rate vs naive %,error growth wk4/wk1,coverage80 %,FSI,accuracy %
+hhs_care,Naive,,5.6,94.8,50.7,97.6
+hhs_care,Seasonal Naive (7d),0.0,3.8,94.6,63.5,97.1
+hhs_care,Moving Avg (7d),7.1,3.8,97.8,58.5,97.1
+hhs_care,SARIMA,85.7,3.9,91.6,25.2,98.6
+hhs_care,ETS,85.7,3.9,92.6,25.1,98.7
+hhs_care,Random Forest,71.4,4.0,97.9,23.1,98.4
+hhs_care,Gradient Boosting,92.9,2.7,100.0,33.1,98.7
+hhs_care,Ensemble,100.0,3.7,97.6,30.2,98.8
+discharged,Naive,,1.0,95.7,49.9,53.0
+discharged,Seasonal Naive (7d),85.7,1.1,91.6,87.8,58.3
+discharged,Moving Avg (7d),85.7,1.0,94.5,86.0,62.9
+discharged,SARIMA,85.7,1.0,86.2,87.0,65.9
+discharged,ETS,78.6,1.0,89.0,73.7,62.3
+discharged,Random Forest,85.7,1.4,74.2,87.4,61.2
+discharged,Gradient Boosting,85.7,1.3,74.3,84.1,61.4
+discharged,Ensemble,85.7,1.2,77.2,86.5,64.6
+transferred,Naive,,1.1,72.7,50.1,50.2
+transferred,Seasonal Naive (7d),50.0,1.1,71.0,86.6,50.5
+transferred,Moving Avg (7d),78.6,1.1,66.0,84.3,58.8
+transferred,SARIMA,78.6,1.0,80.0,95.9,60.7
+transferred,ETS,85.7,1.1,66.2,80.6,61.3
+transferred,Random Forest,57.1,1.2,64.0,83.3,56.8
+transferred,Gradient Boosting,50.0,1.1,59.5,82.2,54.1
+transferred,Ensemble,64.3,1.1,68.4,87.6,60.4
