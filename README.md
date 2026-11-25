@@ -6,7 +6,7 @@ Forecasting and early warning for the U.S. Department of Health and Human Servic
 
 | Read | File |
 |---|---|
-| Final Report (10 pages: data, EDA, methods, results, insights and recommendations) | [PDF](Ankit_Chand_Final_Internship_Report.pdf) |
+| Final Report (10 pages: data, EDA, methods, results, insights and recommendations) | [PDF](Ankit_Chand_Research_Paper.pdf) |
 | Interactive dashboard | [uac_forecast_dashboard.py](uac_forecast_dashboard.py) (Streamlit) | 7 tabs: forecasts, models, scenarios, pipeline |
 | Executed analysis notebook | [UAC_Care_Load_Forecasting.ipynb](UAC_Care_Load_Forecasting.ipynb) |
 
