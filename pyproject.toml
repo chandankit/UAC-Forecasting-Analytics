@@ -1,0 +1,17 @@
+# Runtime dependencies for the Vercel deployment only (Vercel reads pyproject.toml before requirements.txt).
+# requirements.txt stays the full pinned set for the notebook, local runs and Streamlit Community Cloud
+# (Community Cloud reads requirements.txt before pyproject.toml). The dashboard imports only these packages;
+# the modelling and notebook packages would push the function past Vercel's 500 MB bundle limit.
+[project]
+name = "uac-forecasting-analytics"
+version = "2.1.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "streamlit==1.67.0",  # >= 1.67 provides st.App, the ASGI entry point Vercel's Python runtime serves
+    "pandas==2.3.3",
+    "numpy==2.3.5",
+    "plotly==7.1.0",
+]
+
+[tool.vercel]
+entrypoint = "app:app"
